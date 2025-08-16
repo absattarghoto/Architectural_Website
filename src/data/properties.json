@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Minimalist Villa",
+    "location": "Beverly Hills, CA",
+    "price": "$4,500,000",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "area": "4,200 sq ft",
+    "imageType": "modern",
+    "featured": true,
+    "description": "This stunning modern villa features clean lines, open spaces, and floor-to-ceiling windows that bring the outdoors in. Perfect for those who appreciate minimalist design and luxury living.",
+    "amenities": ["Swimming Pool", "Home Theater", "Smart Home System", "Wine Cellar", "Gym"],
+    "yearBuilt": 2021,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ],
+    "videoTour": "https://player.vimeo.com/video/636379467"
+  },
+  {
+    "id": 2,
+    "title": "Luxury Penthouse",
+    "location": "Manhattan, NY",
+    "price": "$7,200,000",
+    "bedrooms": 3,
+    "bathrooms": 3.5,
+    "area": "3,100 sq ft",
+    "imageType": "luxury",
+    "featured": false,
+    "description": "Experience the height of urban luxury in this stunning penthouse with panoramic views of the city skyline. Features include high ceilings, designer finishes, and a private rooftop terrace.",
+    "amenities": ["Rooftop Terrace", "Concierge Service", "Private Elevator", "Chef's Kitchen", "Smart Home System"],
+    "yearBuilt": 2019,
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ],
+    "videoTour": "https://player.vimeo.com/video/636379467"
+  },
+  {
+    "id": 3,
+    "title": "Waterfront Estate",
+    "location": "Miami Beach, FL",
+    "price": "$8,900,000",
+    "bedrooms": 6,
+    "bathrooms": 8,
+    "area": "6,500 sq ft",
+    "imageType": "coastal",
+    "featured": true,
+    "description": "This magnificent waterfront estate offers the ultimate in luxury living with direct ocean access, a private dock, and breathtaking views from every room. Perfect for entertaining and enjoying the Florida lifestyle.",
+    "amenities": ["Private Beach", "Infinity Pool", "Boat Dock", "Outdoor Kitchen", "Guest House"],
+    "yearBuilt": 2018,
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1613977257592-4a9a32f9141e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ],
+    "videoTour": "https://player.vimeo.com/video/636379467"
+  },
+  {
+    "id": 4,
+    "title": "Downtown Apartment",
+    "location": "Austin, TX",
+    "price": "$1,850,000",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": "1,200 sq ft",
+    "imageType": "apartment",
+    "featured": false,
+    "description": "Located in the heart of downtown, this modern apartment offers the perfect blend of luxury and convenience. Enjoy high-end finishes, building amenities, and easy access to the city's best restaurants and entertainment.",
+    "amenities": ["Fitness Center", "Rooftop Pool", "24/7 Security", "Pet Friendly", "Parking Space"],
+    "yearBuilt": 2020,
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-61dc36dc98c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ],
+    "videoTour": "https://player.vimeo.com/video/636379467"
+  },
+  {
+    "id": 5,
+    "title": "Suburban Family Home",
+    "location": "Scottsdale, AZ",
+    "price": "$750,000",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "2,800 sq ft",
+    "imageType": "house",
+    "featured": false,
+    "description": "This beautiful family home in a sought-after neighborhood offers spacious living areas, a gourmet kitchen, and a large backyard perfect for entertaining. Close to excellent schools, parks, and shopping.",
+    "amenities": ["Backyard", "Garage", "Fireplace", "Home Office", "Walk-in Closets"],
+    "yearBuilt": 2017,
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ],
+    "videoTour": "https://player.vimeo.com/video/636379467"
+  },
+  {
+    "id": 6,
+    "title": "Mountain Retreat",
+    "location": "Aspen, CO",
+    "price": "$3,200,000",
+    "bedrooms": 4,
+    "bathrooms": 4.5,
+    "area": "3,500 sq ft",
+    "imageType": "modern",
+    "featured": false,
+    "description": "Escape to this stunning mountain retreat with breathtaking views, vaulted ceilings, and a cozy stone fireplace. Perfect for year-round enjoyment with ski access in winter and hiking trails in summer.",
+    "amenities": ["Hot Tub", "Ski Storage", "Stone Fireplace", "Heated Floors", "Mountain Views"],
+    "yearBuilt": 2016,
+    "images": [
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80",
+      "https://images.unsplash.com/photo-1542718610-a1d656d1884c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://images.unsplash.com/photo-1520608760-eff2c38b06d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    ],
+    "videoTour": "https://player.vimeo.com/video/636379467"
+  }
+]

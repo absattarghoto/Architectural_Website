@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Johnson",
+    "role": "Homeowner",
+    "content": "Working with this architectural firm was a dream. They transformed our outdated house into a modern, functional home that exceeds all our expectations. Their attention to detail and commitment to quality is unmatched.",
+    "rating": 5,
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "date": "March 15, 2023",
+    "project": "Residential Renovation"
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "role": "Business Owner",
+    "content": "The team delivered our commercial building on time and within budget. Their attention to detail and problem-solving abilities are exceptional. They understood our business needs and created a space that perfectly represents our brand.",
+    "rating": 4,
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "date": "January 8, 2023",
+    "project": "Commercial Office Building"
+  },
+  {
+    "id": 3,
+    "name": "Emily Rodriguez",
+    "role": "Real Estate Developer",
+    "content": "I've worked with many architectural firms, but none compare to the creativity, professionalism, and quality of work that this team provides. They consistently deliver innovative designs that stand out in the market and attract premium buyers.",
+    "rating": 5,
+    "image": "https://randomuser.me/api/portraits/women/68.jpg",
+    "date": "November 22, 2022",
+    "project": "Mixed-Use Development"
+  },
+  {
+    "id": 4,
+    "name": "Robert Williams",
+    "role": "CEO, Williams Enterprises",
+    "content": "Their architectural vision completely transformed our corporate headquarters. The space is not only beautiful but also functional and energy-efficient. Our employees love the new environment, and it has significantly improved productivity and morale.",
+    "rating": 5,
+    "image": "https://randomuser.me/api/portraits/men/46.jpg",
+    "date": "February 3, 2023",
+    "project": "Corporate Headquarters",
+    "videoTestimonial": "https://player.vimeo.com/video/636379467"
+  },
+  {
+    "id": 5,
+    "name": "Jennifer Lee",
+    "role": "Interior Designer",
+    "content": "As a designer, I appreciate working with architects who understand the importance of both aesthetics and functionality. This team excels at both, creating spaces that are beautiful, practical, and a joy to furnish and decorate.",
+    "rating": 5,
+    "image": "https://randomuser.me/api/portraits/women/90.jpg",
+    "date": "April 17, 2023",
+    "project": "Luxury Residence"
+  },
+  {
+    "id": 6,
+    "name": "David Thompson",
+    "role": "Hotel Manager",
+    "content": "The renovation of our historic hotel was a complex project with many challenges, but this team handled everything with expertise and professionalism. The result is a perfect blend of historic charm and modern luxury.",
+    "rating": 4,
+    "image": "https://randomuser.me/api/portraits/men/22.jpg",
+    "date": "December 5, 2022",
+    "project": "Hotel Renovation"
+  }
+]
