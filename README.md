@@ -1,109 +1,67 @@
-# React + TypeScript + Vite + Tailwind CSS
+# 🏛️ Architectural Website  
 
-This template provides a setup to get React working in Vite with HMR, TypeScript, and Tailwind CSS for rapid UI development.
+An elegant and **responsive architectural portfolio website** built with **React + TypeScript + Vite + Tailwind CSS**.  
+This project is designed to showcase architectural projects, services, and designs with a modern and minimal UI/UX.  
 
-## Features
+![Preview Screenshot](./preview.png)  
+*(Add a screenshot or gif of your website here)*  
 
-- ⚡️ **Vite** — Lightning fast frontend tooling
-- ⚛️ **React** — A JavaScript library for building user interfaces
-- 🔷 **TypeScript** — JavaScript with syntax for types
-- 🎨 **Tailwind CSS** — A utility-first CSS framework for rapid UI development
+---
 
-Currently, two official plugins are available:
+## 📑 Table of Contents  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [✨ Features](#-features)  
+- [🛠 Tech Stack](#-tech-stack)  
+- [📂 Project Structure](#-project-structure)  
+- [⚡ Getting Started](#-getting-started)  
+  - [🔑 Prerequisites](#-prerequisites)  
+  - [📥 Installation](#-installation)  
+  - [💻 Development](#-development)  
+  - [🚀 Production Build](#-production-build)  
+- [🎨 Customization](#-customization)  
+- [🌍 Deployment](#-deployment)  
+- [🤝 Contributing](#-contributing)  
+- [📜 License](#-license)  
 
-## Getting Started
+---
 
-### Prerequisites
+## ✨ Features  
 
-- Node.js (version 14.x or higher recommended)
-- npm or yarn
+✅ Modern, clean, and professional UI  
+✅ Fully responsive (Mobile, Tablet, Desktop)  
+✅ Built with **React + Vite** for fast performance  
+✅ Styled with **Tailwind CSS** (easy customization)  
+✅ TypeScript for **type safety**  
+✅ Organized project structure for scalability  
+✅ Ready for **Netlify / Vercel / GitHub Pages deployment**  
 
-### Installation
+---
 
-1. Clone the repository
-2. Install dependencies:
+## 🛠 Tech Stack  
 
-```bash
-npm install
-# or
-yarn install
-```
+| Tool / Library      | Purpose |
+|---------------------|---------|
+| ⚛️ **React**        | Component-based UI |
+| 🟦 **TypeScript**   | Type safety & scalability |
+| ⚡ **Vite**         | Fast build & dev server |
+| 🎨 **Tailwind CSS** | Styling & responsive design |
+| 🔍 **ESLint**       | Linting & code quality |
 
-### Development
+---
 
-Start the development server:
+## 📂 Project Structure  
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-This will start the development server at `http://localhost:5173`.
-
-### Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-## Tailwind CSS Configuration
-
-This project includes Tailwind CSS for styling. The configuration can be found in `tailwind.config.js`. You can customize the theme, add plugins, or modify the configuration according to your needs.
-
-```js
-// tailwind.config.js
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {
-      // Your customizations here
-    },
-  },
-  plugins: [],
-}
-```
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules.
+```plaintext
+Architectural_Website/
+├── public/              # Static assets
+├── src/
+│   ├── assets/          # Images, icons
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Main pages (Home, About, Contact)
+│   ├── App.tsx          # Main App component
+│   └── main.tsx         # Entry point
+├── index.html           # HTML entry file
+├── tailwind.config.js   # Tailwind configuration
+├── tsconfig.json        # TypeScript config
+├── vite.config.ts       # Vite configuration
+└── package.json
